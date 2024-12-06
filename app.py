@@ -33,7 +33,7 @@ import streamlit as st
 
 
 sender_email = 'genomicsinsights@gmail.com'
-password = 'Karthickgenomics@4321#'
+password = 'yufa msxl rvhc uymw'
 def convert_df_to_csv(df):
     return df.to_csv(index=False).encode('utf-8')
 def create_download_link(data, filename, mime):
