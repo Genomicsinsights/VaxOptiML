@@ -28,8 +28,20 @@ def clear_catche():
 
 clear_catche()
 
+import streamlit as st
+
+
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
+
+
 sender_email = 'genomicsinsights@gmail.com'
-password = 'iffemqtvylfoartz'
+password = 'Karthickgenomics@4321#'
 def convert_df_to_csv(df):
     return df.to_csv(index=False).encode('utf-8')
 def create_download_link(data, filename, mime):
