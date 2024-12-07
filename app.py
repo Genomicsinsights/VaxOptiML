@@ -752,8 +752,7 @@ def main():
                     msg['From'] = sender_email
                     msg['To'] = receiver_email
                     msg['subject'] = "Thank you for using our tool"
-                    body = f"FINAL CSV FILE OF FINAL PREDICTED EPITOPES for mhc-1 of {protein_sequence}
-                    The final prediction is made by selecting the probable epitopes with the highest Kolaskar-Tongaonkar (K-T) Scores"
+                    body = f"FINAL CSV FILE OF FINAL PREDICTED EPITOPES for mhc-1 of {protein_sequence} The final prediction is made by selecting the probable epitopes with the highest Kolaskar-Tongaonkar (K-T) Scores"
                     msg.attach(MIMEText(body, 'html'))
                     filename = 'final_epitopes.csv'
                     attachment = open(filename, 'rb')
@@ -815,8 +814,7 @@ def main():
                     msg['From'] = sender_email
                     msg['To'] = receiver_email
                     msg['subject'] = "Thank your for using our tool"
-                    body = f"FINAL CSV FILE OF FINALLY PREDICTED EPITOPES for mhc-1 of {protein_sequence}
-                    The final prediction is made by selecting the probable epitopes with the highest Kolaskar-Tongaonkar (K-T) Scores"
+                    body = f"FINAL CSV FILE OF FINALLY PREDICTED EPITOPES for mhc-1 of {protein_sequence} The final prediction is made by selecting the probable epitopes with the highest Kolaskar-Tongaonkar (K-T) Scores"
                     msg.attach(MIMEText(body, 'html'))
                     filename = 'final_epi.csv'
                     attachment = open(filename, 'rb')
@@ -1470,8 +1468,7 @@ def main():
                     msg['From'] = sender_email
                     msg['To'] = receiver_email
                     msg['subject'] = "THANK YOU FOR USING OUR TOOL"
-                    body = f"THIS IS FINAL CSV FILE WITH FINAL PREDICTED EPITOPES of mhc-2 of {protein_sequence}
-                    The final prediction is made by selecting the probable epitopes with the highest Kolaskar-Tongaonkar (K-T) Scores"
+                    body = f"THIS IS FINAL CSV FILE WITH FINAL PREDICTED EPITOPES of mhc-2 of {protein_sequence} The final prediction is made by selecting the probable epitopes with the highest Kolaskar-Tongaonkar (K-T) Scores"
                     msg.attach(MIMEText(body, 'html'))
                     filename = 'final_epitope.csv'
                     attachment = open(filename, 'rb')
@@ -1534,8 +1531,7 @@ def main():
                     msg['From'] = sender_email
                     msg['To'] = receiver_email
                     msg['subject'] = "Thank you for using our tool "
-                    body = f"FINAL CSV FILE WITH FINAL PREDICTED EPITOPES of mhc-2 of  {protein_sequence} 
-                    The final prediction is made by selecting the probable epitopes with the highest Kolaskar-Tongaonkar (K-T) Scores"
+                    body = f"FINAL CSV FILE WITH FINAL PREDICTED EPITOPES of mhc-2 of  {protein_sequence}  The final prediction is made by selecting the probable epitopes with the highest Kolaskar-Tongaonkar (K-T) Scores"
                     msg.attach(MIMEText(body, 'html'))
                     filename = 'final_epi.csv'
                     attachment = open(filename, 'rb')
@@ -2202,8 +2198,7 @@ def main():
                     msg['From'] = sender_email
                     msg['To'] = receiver_email
                     msg['subject'] = "Thank you for using our tool"
-                    body = f"FINAL CSV FILE OF FINAL PREDICTED EPITOPES for mhc-1 of {protein_sequence}
-                    The final prediction is made by selecting the probable epitopes with the highest Kolaskar-Tongaonkar (K-T) Scores"
+                    body = f"FINAL CSV FILE OF FINAL PREDICTED EPITOPES for mhc-1 of {protein_sequence} The final prediction is made by selecting the probable epitopes with the highest Kolaskar-Tongaonkar (K-T) Scores"
                     msg.attach(MIMEText(body, 'html'))
                     filename = 'final_epitopes.csv'
                     attachment = open(filename, 'rb')
@@ -2273,8 +2268,7 @@ def main():
                     msg['From'] = sender_email
                     msg['To'] = receiver_email
                     msg['subject'] = "Thank your for using our tool"
-                    body = f"FINAL CSV FILE OF FINALLY PREDICTED EPITOPES for mhc-1 of sequence given {protein_sequence}
-                    The final prediction is made by selecting the probable epitopes with highest Kolaskar-Tongaonkar (K-T) Scores"
+                    body = f"FINAL CSV FILE OF FINALLY PREDICTED EPITOPES for mhc-1 of sequence given {protein_sequence} The final prediction is made by selecting the probable epitopes with highest Kolaskar-Tongaonkar (K-T) Scores"
                     msg.attach(MIMEText(body, 'html'))
                     filename = 'final_one.csv'
                     attachment = open(filename, 'rb')
@@ -2938,8 +2932,7 @@ def main():
                     msg['From'] = sender_email
                     msg['To'] = receiver_email
                     msg['subject'] = "Thank you for using our tool"
-                    body = f"FINAL CSV FILE OF FINAL PREDICTED EPITOPES for mhc-2 of {protein_sequence}
-                    The final prediction is made by selecting the probable epitopes with highest Kolaskar-Tongaonkar (K-T) Scores"
+                    body = f"FINAL CSV FILE OF FINAL PREDICTED EPITOPES for mhc-2 of {protein_sequence} The final prediction is made by selecting the probable epitopes with highest Kolaskar-Tongaonkar (K-T) Scores"
                     msg.attach(MIMEText(body, 'html'))
                     filename = 'final_epitopes.csv'
                     attachment = open(filename, 'rb')
@@ -3006,8 +2999,7 @@ def main():
                     msg['From'] = sender_email
                     msg['To'] = receiver_email
                     msg['subject'] = "Thank your for using our tool"
-                    body = f"FINAL CSV FILE OF FINALLY PREDICTED EPITOPES for mhc-2 of sequence given {protein_sequence}
-                    The final prediction is made by selecting the probable epitopes with highest Kolaskar-Tongaonkar (K-T) Scores"
+                    body = f"FINAL CSV FILE OF FINALLY PREDICTED EPITOPES for mhc-2 of sequence given {protein_sequence} The final prediction is made by selecting the probable epitopes with highest Kolaskar-Tongaonkar (K-T) Scores"
                     msg.attach(MIMEText(body, 'html'))
                     filename = 'final_epi.csv'
                     attachment = open(filename, 'rb')
