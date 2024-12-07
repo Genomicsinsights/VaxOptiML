@@ -648,7 +648,7 @@ def main():
                 st.header("The Machine Learning Classifier results")
                 clear_catche()
                 st.dataframe(score)
-                st.write('The peptide is considered a probable epitope if at least two out of the three models classify it as an epitope (1).')
+                st.write('The peptide is considered as probable epitope if atleast two out of the three models classify it as an epitope (1).')
 
                 msg = MIMEMultipart()
                 msg['From'] = sender_email
@@ -1368,7 +1368,7 @@ def main():
                 score = pd.read_csv('final_output.csv')
                 st.header("The Machine Learning Classifier results")
                 st.write(score)
-                st.write('The peptide is considered a probable epitope if at least two out of the three models classify it as an epitope (1).')
+                st.write('The peptide is considered as probable epitope if atleast two out of the three models classify it as an epitope (1).')
                 csv_dt = convert_df_to_csv(score)
                 csv_lnk = create_download_link(csv_dt, "ML_Classification_output.csv", "text/csv")
                 st.markdown(csv_lnk, unsafe_allow_html=True)
@@ -2096,7 +2096,7 @@ def main():
                 score = pd.read_csv('final_output.csv')
                 st.header("The Machine Learning Classifier results")
                 st.dataframe(score)
-                st.write('The peptide is considered a probable epitope if at least two out of the three models classify it as an epitope (1).')
+                st.write('The peptide is considered as probable epitope if atleast two out of the three models classify it as an epitope (1).')
 
                 msg = MIMEMultipart()
                 msg['From'] = sender_email
@@ -2829,7 +2829,7 @@ def main():
                 score = pd.read_csv('final_output.csv')
                 st.header("Machine Learning Classifier Results")
                 st.dataframe(score)
-                st.write('The peptide is considered a probable epitope if at least two out of the three models classify it as an epitope (1).')
+                st.write('The peptide is considered as probable epitope if atleast two out of the three models classify it as an epitope (1).')
 
                 msg = MIMEMultipart()
                 msg['From'] = sender_email
